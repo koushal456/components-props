@@ -1,0 +1,16 @@
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 120px 4%;
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  width: 100%;
+  max-width: 840px;
+  margin: 0 auto;
+  justify-items: center;
+}
